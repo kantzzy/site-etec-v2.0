@@ -1,6 +1,10 @@
+body {
+    margin: 0;
+}
+
 h2, h3{
-background-color:  #0a92bb;
-color: white
+background-color:  #0b6b8d ;
+color: white;
 }
 
 .menu li {
@@ -8,21 +12,28 @@ color: white
     list-style: none; 
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    padding: 16px;
+}
+.menu li:hover{  border-left: 1px solid #258FC1;
+    background-color:  #0b506c;
 }
 
-.menu{
-    background-color: #0a92bb;
-   
-    
+.menu {
+   background:  #0b6b8d  url(css/menubg-blue.png) repeat-x;
 }
 
-.cor{
-    color: white;
-    background-color: #0a92bb;
+.menu ul {
+    padding-left: 0;
+    margin: 0;
 }
-
-.container, .menu ul {
+ 
+.container {
     margin: auto;
     width: 80%;
+}
+
+.menu a{
+padding:5px;
+color: white;
+text-decoration: none;
 }

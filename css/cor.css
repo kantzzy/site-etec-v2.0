@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+h2, h3{
+background-color:  #0a92bb;
+color: white;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.menu {
+    background: #0a92bb url(menubg-blue.png) repeat-x;
+    padding-left: 0;
+}
+
+.menu ul {
+    padding-left: 0;
+}
+
+.cor{
+    color: white;
+    background-color: #0a92bb;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
